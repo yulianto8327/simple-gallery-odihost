@@ -1,0 +1,24 @@
+/**
+ * Gallery list
+ */ 
+
+.image-gallery { 
+    text-align: center;
+    width: 640px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    } 
+
+.image-gallery img {
+    border: 1px solid gray;
+  border-radius: 10%;
+  opacity: .8;
+} 
+
+.image-gallery img:hover { 
+  opacity: 1;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-5deg);
+}

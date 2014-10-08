@@ -1,0 +1,103 @@
+/*admin*/
+.admin-message
+{
+margin-top:20px;
+}
+/*end admin*/
+#gallery_form label
+{
+width:150px;
+display:inline-block;
+font-weight:bold;
+vertical-align: top;
+}
+#gallery_form input[type="radio"]
+{
+margin-right:5px;
+margin-left:5px;
+}
+
+
+#gallery_form .type
+{margin-top:5px;
+margin-bottom:5px;
+
+}
+#gallery_form .row
+{
+margin-bottom:5px;
+margin-top:20px;
+}
+#gallery_form .field
+{
+display:inline-block;
+}
+#input_video
+{
+	margin:-20px 0 0 0;
+	padding:0;	
+}
+label.video_lbl
+{
+    width:120px;
+}
+table#input_url td.first_colomn
+{
+    width:145px;
+}
+#add_video
+{
+	position:relative;
+	left:155px;
+	cursor:pointer;
+}
+.video_url
+{
+	width:100px;
+}
+label:hover
+{
+	cursor:default;
+}
+p.explanation
+{
+	color: #A5A5A5;
+    display: inline;
+    font-size: 11px;
+    left: 10px;
+    position: relative;
+    top: 1px;
+}
+#imagefile_wrap_list
+{
+	margin-bottom:30px;
+}
+#imagefile_wrap_list input[type=text], .field table tr td input[type=text] {
+    width: 150px;
+}
+label.new_caption_label, label.caption_label {
+     color: #7A7A7A;
+    font-style: italic;
+    font-weight: normal !important;
+    margin-right: -60px !important;
+    margin-top: 3px;    
+}
+label.new_caption_label
+{
+	margin-left: 9px;
+}
+
+.field table tr td textarea {
+    width: 200px;
+    height: 90px;
+}
+.field table tr td a:link {
+    margin-left: -13px;
+    margin-top: -13px;
+    position: absolute;
+    z-index: 1;
+}
+.MultiFile-applied
+{
+	margin-bottom:20px;
+}

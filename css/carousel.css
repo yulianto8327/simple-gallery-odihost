@@ -1,0 +1,184 @@
+.jcarousel-skin-tango .jcarousel-container {
+
+
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    margin-bottom: 10px;
+    padding: 40px;
+    padding-top: 10px;
+	padding-bottom:10px;
+height: 520px;
+    width: 736px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+	height: 520px;
+    width: 736px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 736px;
+    height: 520px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin:0px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin:0px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #000;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/next.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../images/previous.png);
+}
+
+
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/previous.png) no-repeat 0 0;
+}
+
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(../images/next.png);
+}
+
+
+
+
+/*
+*
+ *  Vertical Buttons
+ */
+
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../images/next.png) no-repeat 0 0;
+}
+
+
+
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(images/previous.png) no-repeat 0 0;
+}
+
+
+.jcarousel-control
+{
+clear:both;
+margin-top:20px;
+text-align:left;
+
+}
+.post img, .type-page img {
+padding:0px;
+border: 0px solid #E8E4E3;
+background:none;
+}
+#main {
+width: 100%;
+}
+.download
+{
+width:835px;
+text-align:center;
+}
+
+/*scroll  */
+#scroll-container
+{
+overflow: hidden;
+position: relative;
+float: left;
+}
+#scroll-content 
+{
+position: absolute;
+
+}
+#scroll-content img, .big-photo img
+{
+border: none;
+border-radius: 0px;
+-webkit-box-shadow: none;
+margin:0px !important;
+padding:0px;
+}
+#scroll-content a
+{
+padding:0px !important;
+margin:0px !important;
+float:left;
+}
+
+#scroll-controls a.right-arrow {
+width: 24px;
+height: 26px;
+background: transparent url(../images/right.gif) no-repeat scroll left top;
+display: block;
+position: absolute;
+top: 10px;
+}
+#scroll-controls a.left-arrow {
+width: 25px;
+height: 26px;
+background: transparent url(../images/left.gif) no-repeat scroll left top;
+display: block;
+position: absolute;
+top: 10px;
+left: 0px;
+}
+.hide
+{
+display:none;
+}
